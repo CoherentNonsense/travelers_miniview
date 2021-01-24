@@ -53,7 +53,7 @@ function miniview()
                 }
                 
                 context.fillStyle = color;
-                context.fillRect(x/2, y/2, 1, 1);            
+                context.fillRect(x/2, 1 - y/2, 1, 1);            
                 link.href = canvas.toDataURL('image/png');
                 document.body.appendChild(link);
             }
